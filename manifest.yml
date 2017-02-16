@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: LinTest1
+  host: LinTest1
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database
